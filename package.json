@@ -4,16 +4,17 @@
   "description": "UI that displays top node modules stats, and npm web scraper",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  { "engines" : { "node" : "7.4.0" 
-    } 
+  "engines": {
+    "node": "6.8.0"
   },
   "author": "cjscotta@gmail.com",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.7",
     "cheerio": "^0.22.0",
+    "express": "^4.14.1",
     "request": "^2.79.0",
     "underscore": "^1.8.3"
   }
