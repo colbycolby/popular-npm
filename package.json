@@ -3,19 +3,22 @@
   "version": "1.0.0",
   "description": "UI that displays top node modules stats, and npm web scraper",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "scripts": {},
   "engines": {
-    "node": "6.8.0"
+    "node": ">=6.8"
   },
   "author": "cjscotta@gmail.com",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.7",
+    "body-parser": "^1.17.1",
     "cheerio": "^0.22.0",
+    "compression": "^1.6.2",
     "express": "^4.14.1",
-    "request": "^2.79.0",
-    "underscore": "^1.8.3"
-  }
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.1",
+    "nunjucks": "^3.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
 }

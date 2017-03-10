@@ -1,0 +1,19 @@
+{% extends "_main.html" %}
+
+{% block main %}
+<h1>Most Popular NPM Package Downloads</h1>
+<ul>
+{% for package in packages %}
+  <li>
+    <h2>{{ package.name }}</h2>
+    <p>
+      Daily: {{ package.daily }} <br>
+      Weekly: {{ package.weekly }} <br>
+      Monthly: {{ package.monthly }} <br>
+    </p>
+  </li>
+{% else %}
+  <li>Unable to get packages at the moment! :(</li>
+{% endfor %}
+</ul>
+{% endblock %}
