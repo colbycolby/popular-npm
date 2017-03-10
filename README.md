@@ -11,3 +11,4 @@ Clone repo
 $ npm install
 $ node app.js
 ```
+Open a browser: localhost:300
