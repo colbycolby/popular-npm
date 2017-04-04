@@ -1,6 +1,6 @@
 {
   "name": "popular-npm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "npm package that returns top 100 packages with daily, weekly, and monthly download counts.",
   "main": "index.js",
   "engines": {
