@@ -2,7 +2,6 @@ const cheerio = require('cheerio');
 const Promise = require('bluebird');
 const request = Promise.promisifyAll(Promise.promisify(require('request')));
 const _ = require('lodash');
-const jsonfile = require('jsonfile');
 
 const getPackages = () =>
   Promise.join(
