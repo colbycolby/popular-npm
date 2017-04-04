@@ -1,4 +1,4 @@
-# npmjs
+# beloved-npm
 
 This is currently a script that scrapes https://www.npmjs.com/ for the top 100 popular packages and gets their daily, weekly, and monthly download counts.
 
