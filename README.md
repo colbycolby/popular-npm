@@ -6,7 +6,7 @@ This is a npm module that scrapes https://www.npmjs.com/ for the top 100 popular
 
 ```bash
 $ npm i
-$ node script.js
+$ node index.js
 ```
 
 ## Using
