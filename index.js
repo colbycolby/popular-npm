@@ -29,6 +29,4 @@ const getPackages = () =>
              monthly: month.body[name].downloads,
            }))));
 
-getPackages()
-.then(results => jsonfile.writeFile('out.json', results, { spaces: 2 }, err => console.error(err)))
-.catch(err => console.error(err));
+exports.getPackages = getPackages;

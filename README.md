@@ -1,13 +1,21 @@
-# beloved-npm
+# popular-npm
 
-This is currently a script that scrapes https://www.npmjs.com/ for the top 100 popular packages and gets their daily, weekly, and monthly download counts.
+This is a npm module that scrapes https://www.npmjs.com/ for the top 100 popular packages and gets their daily, weekly, and monthly download counts.
 
 ## Running
 
-Clone repo
 ```bash
 $ npm i
 $ node script.js
+```
+
+## Using
+
+Theres only one function that returns a promise:
+```
+const popularNpm = require('popular-npm');
+popularNpm.getPackages()
+  .then(results => console.log(results));
 ```
 
 example output:

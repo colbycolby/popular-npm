@@ -1,9 +1,8 @@
 {
-  "name": "npm-stats",
-  "version": "1.0.0",
-  "description": "npm web scraper",
-  "main": "app.js",
-  "scripts": {},
+  "name": "popular-npm",
+  "version": "1.0.1",
+  "description": "npm package that returns top 100 packages with daily, weekly, and monthly download counts.",
+  "main": "index.js",
   "engines": {
     "node": ">=6.8"
   },
