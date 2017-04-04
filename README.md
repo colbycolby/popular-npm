@@ -1,12 +1,13 @@
 # popular-npm
 
+[![NPM Version][npm-image]][npm-url]
+
 This is a npm module that scrapes https://www.npmjs.com/ for the top 100 popular packages and gets their daily, weekly, and monthly download counts.
 
-## Running
+## Install
 
 ```bash
-$ npm i
-$ node index.js
+$ npm i popular-npm --save=
 ```
 
 ## Using
@@ -48,3 +49,5 @@ example output:
   ......
 ]
 ```
+[npm-image]: https://img.shields.io/npm/v/popular-npm.svg
+[npm-url]: https://npmjs.org/package/popular-npm
