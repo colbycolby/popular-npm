@@ -7,7 +7,7 @@ This is a npm module that scrapes https://www.npmjs.com/ for the top 100 popular
 ## Install
 
 ```bash
-$ npm i popular-npm --save=
+$ npm i popular-npm --save
 ```
 
 ## Using
